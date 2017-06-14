@@ -24,7 +24,7 @@ Using the set, {1, 2, 3, 4}, it is possible to obtain thirty-one different
 target numbers of which 36 is the maximum, and each of the numbers 1 to 28 can be 
 obtained before encountering the first non-expressible number.
 
-Find the set of four distinct digits, a < b < c < d, for which the longest set 
+Find the set of four distinct *digits*, a < b < c < d, for which the *longest* set 
 of consecutive positive integers, 1 to n, can be obtained, 
 giving your answer as a string: abcd.
 
@@ -47,7 +47,4 @@ ghc -O2 --make euler93
 ```
 
 ## solution sketch (TODO)
-```bash
-parse to AST => flatMap
-parse AST =? flatmap
-```
+in `notes.md`
