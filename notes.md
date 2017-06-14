@@ -43,4 +43,14 @@ rb tree ?
     - try to find next one
     - fnd longest distance between those
     - upper bound is 9
-    - recursive solution? greedy to killoff branches with non expresssible solution?
+    - recursive solution? greedy to kill off branches with non expresssible solution?
+- max sum number calc 6*7*8*9 = 3024
+next representable numer is
+so we can skip numbers bigger than 510
+so better to count from top
+510 = 6+7*8*9
+498 = 7*8*9-6
+425= 6*8*9-7
+345 = 6*7*8+9 
+
+114 = 6*7+8*9 next representable number
